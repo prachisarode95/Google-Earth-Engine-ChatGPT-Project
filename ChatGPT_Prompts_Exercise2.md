@@ -1,46 +1,76 @@
-## 🧪 Preprocessing Task Before Start Prompting: Preparing NO₂ Data for Air Quality Analysis over New Delhi
+## 🌬️ Air Quality Research (Preprocessing before starting to prompt): Preparing NO₂ Data for Air Quality Analysis over New Delhi
 
-As an **Air Quality Researcher** specializing in remote sensing, the objective is to proficiently employ the **Google Earth Engine JavaScript API** for air quality assessments over New Delhi. This initial task sets the stage for further analysis and classification.
+### Objective:
+
+As an **Air Quality Researcher** specializing in remote sensing, the objective is to proficiently employ the **Google Earth Engine JavaScript API** for air quality assessments over New Delhi to retrieve, filter, and visualize Sentinel-5P NO2 images for further analysis and classification. 
+
+### Steps:
+
+1. **Retrieve Sentinel-5P NO2 Image Collection**
+   The Sentinel-5P NO2 data is available in the following collection:
+
+   ```javascript
+   var no2Collection = ee.ImageCollection("COPERNICUS/S5P/NRTI/L3_NO2");
+   ```
+
+2. **Filter the Collection by Date Range**
+   The dataset should be filtered to include images from **November 1, 2023, to November 30, 2024**:
+
+   ```javascript
+   var filteredNO2 = no2Collection.filterDate('2024-11-01', '2024-11-30');
+   ```
+
+3. **Extract Suitable Bands for NO2 Surface Results**
+   To focus on the NO2 data, select the relevant band for nitrogen dioxide:
+
+   ```javascript
+   var no2 = filteredNO2.select('NO2_column_number_density');
+   ```
+
+4. **Extract Administrative Boundary of New Delhi**
+   You will use the provided feature collection to extract the boundary of New Delhi:
+
+   ```javascript
+   var newDelhi = ee.FeatureCollection("projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM1")
+     .filter(ee.Filter.eq('shapeName', 'Delhi'));
+   ```
+
+5. **Apply Visualization Parameters**
+   Set the color palette to visualize NO2 levels with a range from "white" to "red" as follows:
+
+   ```javascript
+   var visParams = {
+     min: 0.0,
+     max: 0.0005,
+     palette: ['white', 'blue', 'green', 'orange', 'red']
+   };
+   ```
+
+6. **Visualize the Data**
+   Add the filtered NO2 image to the map with the chosen visualization parameters and overlay the boundary of New Delhi:
+
+   ```javascript
+   var no2Map = no2.mean().clip(newDelhi);
+   Map.centerObject(newDelhi, 10);
+   Map.addLayer(no2Map, visParams, 'NO2 Levels');
+   Map.addLayer(newDelhi.style({color: 'black', fillColor: '00000000'}), {}, 'New Delhi Boundary');
+   ```
+
+7. **Export Image (Optional)**
+   Optionally, you can export the processed image for further use:
+
+   ```javascript
+   Export.image.toDrive({
+     image: no2Map,
+     description: 'NO2_Image_NewDelhi',
+     scale: 1000,
+     region: newDelhi
+   });
+   ```
 
 ---
 
-### 🔹 Task 1: Retrieve Sentinel-5P NO₂ Imagery
-
-**Dataset:**  
-`ee.ImageCollection("COPERNICUS/S5P/NRTI/L3_NO2")`
-
----
-
-### 🔹 Task 2: Filter and Extract Suitable Bands
-
-- Focus on selecting the appropriate band from the Sentinel-5P dataset to ensure accurate representation of NO₂ over the surface.
-
----
-
-### 🔹 Task 3: Apply Date Filter
-
-- Temporal Range: **November 1, 2023 – November 30, 2023**
-
----
-
-### 🔹 Task 4: Visualization Parameters
-
-- Use the following color palette for displaying NO₂ concentration:
-  - `"white", "blue", "green", "orange", "red"`
-
----
-
-### 🔹 Task 5: Spatial Representation
-
-- Extract the **administrative boundary of New Delhi**.
-- Use this FeatureCollection to clip the imagery:
-  ```javascript
-  ee.FeatureCollection("projects/sat-io/open-datasets/geoboundaries/CGAZ_ADM1")
-    .filter(ee.Filter.eq('shapeName', 'Delhi'));
-
----
-
-## 🧪 Prompt Log Exercise 2: Air Quality Assessment over New Delhi using NO₂ Data
+##  📌 Prompt Log: Air Quality Assessment over New Delhi using preprocessed NO₂ Data
 
 ### 🔹 Prompt 1: Composite Images & Statistics
 
@@ -90,9 +120,9 @@ Print out the results of the classified image into the console, focusing on prin
 
 ---
 
-## 🧪 Prompt Log Continued Exercise 2: Daily NO₂ Analysis and Time Series Visualization over New Delhi
+## 🧪 Prompt Log Continued: Daily NO₂ Analysis and Time Series Visualization over New Delhi
 
-In this exercise, you continue your role as an **Air Quality Researcher** using the **Google Earth Engine JavaScript API** to assess NO₂ concentration patterns over New Delhi throughout November 2023.
+In this exercise, you continue your role as an **Air Quality Researcher** using the **Google Earth Engine JavaScript API** to assess NO₂ concentration patterns over New Delhi throughout November 2024.
 
 ---
 
@@ -114,7 +144,7 @@ Display **daily level classes** of NO₂ values based on the entire month of Nov
 ### 🔹 Prompt 6: Time Series Chart and Export
 
 **Task:**  
-Generate a **time series chart** illustrating the **daily concentration values** of NO₂ over New Delhi for **November 2023**.
+Generate a **time series chart** illustrating the **daily concentration values** of NO₂ over New Delhi for **November 2024**.
 
 **Additional Output:**  
 Export the **daily NO₂ values** over New Delhi in **CSV format** for further offline analysis.

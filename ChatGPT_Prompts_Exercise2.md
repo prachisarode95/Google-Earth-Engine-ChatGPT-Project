@@ -116,7 +116,7 @@ Create a **legend** for the following color range to identify the classes on the
 
 **Task: Output Classified Values**
 
-Print out the results of the classified image into the console, focusing on printing the **NO₂ concentration values** of each class separately with a **description** from the classified image.
+Please print the results of the classified image to the console, specifically highlighting the NO2 concentration values for each class, along with a description of the classified image. Additionally, include a comment labeled "// Step 9: Create a Legend for the Classification" from the previous code, and generate the final code again.
 
 ---
 
@@ -128,7 +128,7 @@ In this exercise, you continue your role as an **Air Quality Researcher** using 
 
 ### 🔹 Prompt 4: Continuing from Code
 
-Following is the code you are working on as an Air Quality Researcher specializing in remote sensing, proficient in utilizing Google Earth Engine JavaScript API for air quality assessments over New Delhi.
+Above is the code from the last prompt you are working on as an Air Quality Researcher, specializing in remote sensing and proficient in utilizing the Google Earth Engine JavaScript API for air quality assessments in New Delhi.
 
 *(Code was reused or adapted here for further analysis)*
 
@@ -137,14 +137,14 @@ Following is the code you are working on as an Air Quality Researcher specializi
 ### 🔹 Prompt 5: Display Daily NO₂ Level Classes
 
 **Task:**  
-Display **daily level classes** of NO₂ values based on the entire month of November over New Delhi.
+Now display **daily level classes** of NO₂ values based on the entire month of November over New Delhi.
 
 ---
 
 ### 🔹 Prompt 6: Time Series Chart and Export
 
 **Task:**  
-Generate a **time series chart** illustrating the **daily concentration values** of NO₂ over New Delhi for **November 2024**.
+Now generate a **time series chart** illustrating the **daily concentration values** of NO₂ over New Delhi for **November 2024**.
 
 **Additional Output:**  
 Export the **daily NO₂ values** over New Delhi in **CSV format** for further offline analysis.

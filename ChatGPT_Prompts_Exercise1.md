@@ -29,3 +29,5 @@ To narrow your focus, obtain the shapefile of Vietnam from the large-scale Inter
 For visualization purposes, use "green shades" to represent NDVI, "blue shades" for MNDWI, and "red shades" for NDBI.
 
 ---
+## ⚙️ View live code in action
+[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/your-script-id)

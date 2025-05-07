@@ -157,5 +157,5 @@ Now generate a **time series chart** illustrating the **daily concentration valu
 Export the **daily NO₂ values** over New Delhi in **CSV format** for further offline analysis.
 
 ---
-
-[![View Script 3 in Earth Engine Code Editor](https://code.earthengine.google.com/d5c4caf61e833bc239badc3af01bf34e?noload=true)]
+## ⚙️ View live code in action
+[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/d5c4caf61e833bc239badc3af01bf34e?noload=true)

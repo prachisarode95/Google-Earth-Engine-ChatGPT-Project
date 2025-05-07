@@ -1,1 +1,0 @@
-# Google-Earth-Engine-ChatGPT-Project

@@ -69,6 +69,9 @@ As an **Air Quality Researcher** specializing in remote sensing, the objective i
    ```
 
 ---
+[![View Script 1 in Earth Engine Code Editor](https://code.earthengine.google.com/89c41fd70b2b8d23a1bbe7a8f5a1b5d4?noload=true)]
+
+---
 
 ##  📌 Prompt Log: Air Quality Assessment over New Delhi using preprocessed NO₂ Data
 
@@ -120,6 +123,10 @@ Please print the results of the classified image to the console, specifically hi
 
 ---
 
+[![View Script 2 in Earth Engine Code Editor](https://code.earthengine.google.com/e0b7188cb089244dd5c20cf704cb3966?noload=true)]
+
+---
+
 ## 🧪 Prompt Log Continued: Daily NO₂ Analysis and Time Series Visualization over New Delhi
 
 In this exercise, you continue your role as an **Air Quality Researcher** using the **Google Earth Engine JavaScript API** to assess NO₂ concentration patterns over New Delhi throughout November 2024.
@@ -150,3 +157,5 @@ Now generate a **time series chart** illustrating the **daily concentration valu
 Export the **daily NO₂ values** over New Delhi in **CSV format** for further offline analysis.
 
 ---
+
+[![View Script 3 in Earth Engine Code Editor](https://code.earthengine.google.com/d5c4caf61e833bc239badc3af01bf34e?noload=true)]

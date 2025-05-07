@@ -8,19 +8,17 @@ This project demonstrates how to use **ChatGPT-generated prompts** and the **Goo
 
 ### ✅ Completed Exercises
 1. **Integrating ChatGPT with Google Earth Engine**  
-2. **Pre-processing Geospatial Data**  
-3. **Air Quality Analysis using NO2**  
-4. **Mapping Drought Indices**  
-5. **Flood Monitoring and Damage Assessment**
-6. **Urban Planning and Development**
+2. **Pre-processing Geospatial Data for Air Quality Analysis using NO2**  
+3. **Mapping Drought Indices**  
+4. **Flood Monitoring and Damage Assessment**
+5. **Urban Planning and Development**
 
 ---
 
 ## ✨ Tools Used
 - [Google Earth Engine (JavaScript API)](https://code.earthengine.google.com/)
 - [ChatGPT Prompt Engineering](https://chat.openai.com/)
-- Remote sensing datasets: MODIS, Landsat 8, Sentinel-1, Sentinel-5P, GHS POP, etc.
-
+  
 ---
 
 ## 💡 Prompt Logs
@@ -34,17 +32,12 @@ Prompts used:
 
 ---
 
-### 2. 📌 Pre-processing Geospatial Data for NO2 over New Delhi
+### 2. 📌 Pre-processing Geospatial Data for Air Quality Data Analysis over New Delhi (Composites, Classification, Time Series)
 Prompts used:
 - Use Sentinel-5P NO2 dataset
 - Filter by date: `2023-11-01` to `2023-11-30`
 - Extract band, apply color palette: white, blue, green, orange, red
 - Clip with New Delhi boundary from `CGAZ_ADM1`
-
----
-
-### 3. 📌 Air Quality Analysis (Composites, Classification, Time Series)
-Prompts used:
 - Generate mean, median, mode, min, max composites for NO2
 - Classify NO2 into 4 classes using a threshold
 - Display with legend and color codes
@@ -53,7 +46,7 @@ Prompts used:
 
 ---
 
-### 4. 📌 Mapping Drought Indices over Indonesia
+### 3. 📌 Mapping Drought Indices over Indonesia
 Prompts used:
 - Compute **VCI** using MODIS NDVI (`MOD13A2`)
 - Compute **TCI** using MODIS LST (`MOD11A1`)
@@ -64,7 +57,7 @@ Prompts used:
 
 ---
 
-### 5. 📌 Applying ChatGPT and GEE in Flood Monitoring
+### 4. 📌 Applying ChatGPT and GEE in Flood Monitoring
 Prompts used:
 - Use Sentinel-1 SAR GRD dataset
 - Filter ASCENDING/DESCENDING orbit data
@@ -74,6 +67,12 @@ Prompts used:
 - Calculate flood area in sq.km
 - Perform **damage assessment** using GHS_POP dataset (`JRC/GHSL/P2023A/GHS_POP`)
 - Visualize flood-affected population
+
+---
+
+### 5. 📌 Exploring ChatGPT's role in urban planning and development
+Prompts used:
+- 
 
 ---
 
@@ -87,32 +86,21 @@ Prompts used:
 - **Sentinel-1 SAR GRD**: `COPERNICUS/S1_GRD`  
 - **GHS Population**: `JRC/GHSL/P2023A/GHS_POP`  
 - **Country boundaries**: `USDOS/LSIB_SIMPLE/2017`, `CGAZ_ADM1`
-
----
-
-## 📊 Output
-
-Each script outputs:
-- Satellite image visualizations
-- Statistical summaries (mean, min, max, etc.)
-- Time series graphs
-- Exported CSV files
-- Damage/flood masks and legends
+- add for the 5th exercise
 
 ---
 
 ## 🙌 Credits
 
-- **Course**: [Introduction to Geospatial Data Analysis with ChatGPT and Google Earth Engine](https://www.earthdatascience.org/)
-- **Platform**: [EO College](https://eo-college.org/)
-- **Instructor**: [Your Instructor Name if known]
+- **Course**: [Introduction to Geospatial Data Analysis with ChatGPT and Google Earth Engine](https://apps.lc.unu.edu/learning/course/course-v1:UNU-INWEH+INWEH-20+2023_T4/home)
+- **Platform**: [United Nations University](https://apps.lc.unu.edu/)
 - **Prompt-based Analysis**: Powered by ChatGPT + GEE JavaScript API
 
 ---
 
-## 🧠 Author's Note
+## 🧠 Personal Note
 
-This project is a hands-on effort to blend AI tools with geospatial science. All results were derived using AI-generated coding prompts and GEE best practices. Feel free to fork and expand it!
+This project is a hands-on effort to blend AI tools with geospatial science. All results were derived using AI-generated coding prompts and GEE best practices.
 
 ---
 

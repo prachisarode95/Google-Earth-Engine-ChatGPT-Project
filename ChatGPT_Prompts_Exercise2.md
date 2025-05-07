@@ -89,3 +89,34 @@ Create a **legend** for the following color range to identify the classes on the
 Print out the results of the classified image into the console, focusing on printing the **NO₂ concentration values** of each class separately with a **description** from the classified image.
 
 ---
+
+## 🧪 Prompt Log Continued Exercise 2: Daily NO₂ Analysis and Time Series Visualization over New Delhi
+
+In this exercise, you continue your role as an **Air Quality Researcher** using the **Google Earth Engine JavaScript API** to assess NO₂ concentration patterns over New Delhi throughout November 2023.
+
+---
+
+### 🔹 Prompt 4: Continuing from Code
+
+Following is the code you are working on as an Air Quality Researcher specializing in remote sensing, proficient in utilizing Google Earth Engine JavaScript API for air quality assessments over New Delhi.
+
+*(Code was reused or adapted here for further analysis)*
+
+---
+
+### 🔹 Prompt 5: Display Daily NO₂ Level Classes
+
+**Task:**  
+Display **daily level classes** of NO₂ values based on the entire month of November over New Delhi.
+
+---
+
+### 🔹 Prompt 6: Time Series Chart and Export
+
+**Task:**  
+Generate a **time series chart** illustrating the **daily concentration values** of NO₂ over New Delhi for **November 2023**.
+
+**Additional Output:**  
+Export the **daily NO₂ values** over New Delhi in **CSV format** for further offline analysis.
+
+---

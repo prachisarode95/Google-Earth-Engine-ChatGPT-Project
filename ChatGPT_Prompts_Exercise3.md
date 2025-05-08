@@ -4,7 +4,7 @@ In this exercise, you assume the role of a **Climatologist** using the **Google 
 
 ---
 
-### 🔹 Prompt 1: Vegetation Condition Index (VCI)
+### 💡 Prompt 1: Vegetation Condition Index (VCI)
 
 **Objective:**
 Calculate the **Vegetation Condition Index (VCI)** for Indonesia.
@@ -23,7 +23,7 @@ Calculate the **Vegetation Condition Index (VCI)** for Indonesia.
 
 ---
 
-### 🔹 Prompt 2: Temperature Condition Index (TCI)
+### 💡 Prompt 2: Temperature Condition Index (TCI)
 
 **Objective:**
 Calculate the **Temperature Condition Index (TCI)** for Indonesia.
@@ -42,7 +42,7 @@ Calculate the **Temperature Condition Index (TCI)** for Indonesia.
 
 ---
 
-### 🔹 Prompt 3: Drought Severity Index (DSI)
+### 💡 Prompt 3: Drought Severity Index (DSI)
 
 **Objective:**
 Calculate the **Drought Severity Index (DSI)** for Indonesia.
@@ -62,7 +62,7 @@ Calculate the **Drought Severity Index (DSI)** for Indonesia.
 
 ---
 
-### 🔹 Prompt 4: Time Series Chart for VCI
+### 💡 Prompt 4: Time Series Chart for VCI
 
 **Objective:**
 Generate a **time series chart** using `ui.Chart.image.doySeriesByRegion` for **VCI**.

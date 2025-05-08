@@ -1,4 +1,4 @@
-## 🌬️ Air Quality Assessment over New Delhi
+## 🏭 Air Quality Assessment over New Delhi
 
 As an **Air Quality Researcher** specializing in remote sensing, the objective is to proficiently employ the **Google Earth Engine JavaScript API** for air quality assessments over New Delhi to retrieve, filter, and visualize Sentinel-5P NO2 images for further analysis and classification. 
 

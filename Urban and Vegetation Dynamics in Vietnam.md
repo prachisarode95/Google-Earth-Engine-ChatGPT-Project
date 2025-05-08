@@ -1,4 +1,4 @@
-# 🧪 Prompt Log: Integrating ChatGPT with Google Earth Engine
+# 🧪 Prompt Log: Urban and Vegetation Dynamics in Vietnam (2024)
 
 This document contains the prompts used to generate Google Earth Engine scripts with the help of ChatGPT for the course **"Introduction to Geospatial Data Analysis with ChatGPT and Google Earth Engine"**.
 

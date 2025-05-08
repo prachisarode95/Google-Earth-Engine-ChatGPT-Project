@@ -7,8 +7,8 @@ This project demonstrates how to use **ChatGPT-generated prompts** and the **Goo
 ## 📦 Project Structure
 
 ### ✅ Completed Exercises
-1. **Integrating ChatGPT with Google Earth Engine**  
-2. **Pre-processing Geospatial Data for Air Quality Analysis using NO2**  
+1. **Urban and Vegetation Dynamics in Vietnam (2024)**  
+2. **Air Quality Assessment over New Delhi**  
 3. **Mapping Drought Indices**  
 4. **Flood Monitoring and Damage Assessment**
 5. **Urban Planning and Development**

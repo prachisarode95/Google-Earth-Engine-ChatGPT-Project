@@ -28,4 +28,4 @@ For visualization purposes, use "green shades" to represent NDVI, "blue shades" 
 
 ---
 ## ⚙️ View live code in action
-[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/your-script-id)
+[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/47e27493cda909a9a0850db8a44608f6?noload=true)

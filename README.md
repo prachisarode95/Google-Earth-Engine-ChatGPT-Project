@@ -7,7 +7,7 @@ This project demonstrates how to use **ChatGPT-generated prompts** and the **Goo
 ## 📦 Project Structure
 
 ### ✅ Completed Exercises
-1. **Urban and Vegetation Dynamics in Vietnam (2024)**  
+1. **Urban and Vegetation Dynamics in Vietnam**  
 2. **Air Quality Assessment over New Delhi**  
 3. **Mapping Drought Indices**  
 4. **Flood Monitoring and Damage Assessment**

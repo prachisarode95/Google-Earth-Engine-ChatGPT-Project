@@ -1,10 +1,8 @@
-# 📌 Prompt Log
+# 🧪 Prompt Log: Integrating ChatGPT with Google Earth Engine
 
 This document contains the prompts used to generate Google Earth Engine scripts with the help of ChatGPT for the course **"Introduction to Geospatial Data Analysis with ChatGPT and Google Earth Engine"**.
 
 ---
-
-## 🧪 Exercise 1: Integrating ChatGPT with Google Earth Engine
 
 ### 🔹 Prompt 1
 Generate a code that displays a satellite image over Vietnam

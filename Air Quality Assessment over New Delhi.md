@@ -1,10 +1,8 @@
-## 🌬️ Air Quality Research (Preprocessing before starting to prompt): Preparing NO₂ Data for Air Quality Analysis over New Delhi
-
-### Objective:
+## 🌬️ Air Quality Assessment over New Delhi
 
 As an **Air Quality Researcher** specializing in remote sensing, the objective is to proficiently employ the **Google Earth Engine JavaScript API** for air quality assessments over New Delhi to retrieve, filter, and visualize Sentinel-5P NO2 images for further analysis and classification. 
 
-### Steps:
+### 💡 Preprocessing Steps:
 
 1. **Retrieve Sentinel-5P NO2 Image Collection**
    The Sentinel-5P NO2 data is available in the following collection:
@@ -69,13 +67,13 @@ As an **Air Quality Researcher** specializing in remote sensing, the objective i
    ```
 
 ---
-[![View Script 1 in Earth Engine Code Editor](https://code.earthengine.google.com/89c41fd70b2b8d23a1bbe7a8f5a1b5d4?noload=true)]
+[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/89c41fd70b2b8d23a1bbe7a8f5a1b5d4?noload=true)
 
 ---
 
 ##  📌 Prompt Log: Air Quality Assessment over New Delhi using preprocessed NO₂ Data
 
-### 🔹 Prompt 1: Composite Images & Statistics
+### 💡 Prompt 1: Composite Images & Statistics
 
 Continuing your role as an Air Quality Researcher, your next task is to display different composites of NO₂ images in the Google Earth Engine JavaScript API for advanced air quality assessments over New Delhi.
 
@@ -89,7 +87,7 @@ Print out all the **mean values** from the Mean Composite in the console.
 
 ---
 
-### 🔹 Prompt 2: Image Classification
+### 💡 Prompt 2: Image Classification
 
 **Task: Classification of NO₂ Levels**
 
@@ -115,7 +113,7 @@ Create a **legend** for the following color range to identify the classes on the
 
 ---
 
-### 🔹 Prompt 3: Print Classified Results
+### 💡 Prompt 3: Print Classified Results
 
 **Task: Output Classified Values**
 
@@ -123,7 +121,7 @@ Please print the results of the classified image to the console, specifically hi
 
 ---
 
-[![View Script 2 in Earth Engine Code Editor](https://code.earthengine.google.com/e0b7188cb089244dd5c20cf704cb3966?noload=true)]
+[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/e0b7188cb089244dd5c20cf704cb3966?noload=true)
 
 ---
 
@@ -133,7 +131,7 @@ In this exercise, you continue your role as an **Air Quality Researcher** using 
 
 ---
 
-### 🔹 Prompt 4: Continuing from Code
+### 💡 Prompt 4: Continuing from Code
 
 Above is the code from the last prompt you are working on as an Air Quality Researcher, specializing in remote sensing and proficient in utilizing the Google Earth Engine JavaScript API for air quality assessments in New Delhi.
 
@@ -141,14 +139,14 @@ Above is the code from the last prompt you are working on as an Air Quality Rese
 
 ---
 
-### 🔹 Prompt 5: Display Daily NO₂ Level Classes
+### 💡 Prompt 5: Display Daily NO₂ Level Classes
 
 **Task:**  
 Now display **daily level classes** of NO₂ values based on the entire month of November over New Delhi.
 
 ---
 
-### 🔹 Prompt 6: Time Series Chart and Export
+### 💡 Prompt 6: Time Series Chart and Export
 
 **Task:**  
 Now generate a **time series chart** illustrating the **daily concentration values** of NO₂ over New Delhi for **November 2024**.

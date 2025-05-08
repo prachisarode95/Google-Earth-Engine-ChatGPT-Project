@@ -1,4 +1,4 @@
-## 🧪 Prompt Log Exercise 3: Mapping Drought Indices over Indonesia
+## 🧪 Prompt Log: Mapping Drought Indices over Indonesia
 
 In this exercise, you assume the role of a **Climatologist** using the **Google Earth Engine JavaScript API** to monitor and analyze drought conditions in **Indonesia** using several drought indices.
 

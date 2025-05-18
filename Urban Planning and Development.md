@@ -100,6 +100,10 @@ To extract building use the Open Buildings V3 Polygons with ID: ee.FeatureCollec
 Clip out the buildings in the selected cities and then display them on the map, and calculate the distance of the Green Space Area from the buildings in each city.
 
 ```
+
+# View code in engine
+[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)]()
+
 ---
 
 ## 📈 Output Summary
@@ -109,8 +113,3 @@ Clip out the buildings in the selected cities and then display them on the map, 
 - ✅ Green space vs total city area statistics printed
 - ✅ Buildings clipped per city and visualized
 - ✅ Distance-to-building analysis performed for green areas
-
----
-
-# View code in engine
-![(view in earth engine)]()

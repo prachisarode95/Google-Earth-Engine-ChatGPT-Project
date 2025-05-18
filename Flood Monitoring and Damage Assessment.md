@@ -99,6 +99,9 @@ Next, assess the damage caused by the flood using population data:
 
 ```
 
+# View code in engine
+[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/ff3c3e3013aeab89a248a99a5b848de2?noload=true)
+
 ---
 
 ## 🗂️ Output Summary
@@ -107,9 +110,3 @@ Next, assess the damage caused by the flood using population data:
 - ✅ Water Body Extraction (masked areas displayed in blue)
 - ✅ Flood Area Calculation (in square kilometers)
 - ✅ Damage Assessment Visualization (affected population areas overlaid on flood mask)
-
----
-
-# View code in engine
-[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/ff3c3e3013aeab89a248a99a5b848de2?noload=true)
-

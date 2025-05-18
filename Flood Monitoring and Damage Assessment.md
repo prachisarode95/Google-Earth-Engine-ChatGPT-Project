@@ -1,4 +1,4 @@
-# 🌊 Flood Mapping and Damage Assessment
+# 🌊 Flood Monitoring and Damage Assessment
 
 This project demonstrates the use of **Google Earth Engine JavaScript API** to map floods and assess the damage using **Sentinel-1 SAR** data over an area of interest (AOI). The analysis includes the extraction of flood masks, water bodies, and the assessment of affected populations using **GHS population data**.
 
@@ -111,5 +111,5 @@ Next, assess the damage caused by the flood using population data:
 ---
 
 # View code in engine
-(https://code.earthengine.google.com/xxxxxxx?noload=true)
+[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/ff3c3e3013aeab89a248a99a5b848de2?noload=true)
 

@@ -62,5 +62,16 @@ These prompts were used to generate Google Earth Engine scripts for exploring la
 ```
 ---
 
-## ⚙️ View live code in action
-[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/47e27493cda909a9a0850db8a44608f6?noload=true)
+## 🗂️ Output Summary
+
+- ✅ Satellite imagery displayed over Vietnam
+- ✅ Median composite created for Landsat 8 imagery (2024–2025)
+- ✅ NDVI, NDBI, and MNDWI calculated and visualized
+- ✅ All outputs clipped to Vietnam boundaries
+
+---
+
+## ⚙️ View Live Code in Earth Engine
+
+[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/2bd11572ec2350a2adaca9646ad0e97d?noload=true)
+

@@ -113,4 +113,4 @@ Clip out the buildings in the selected cities and then display them on the map, 
 ---
 
 # View code in engine
-(https://code.earthengine.google.com/)
+![(view in earth engine)]()

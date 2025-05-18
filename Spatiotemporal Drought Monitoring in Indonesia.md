@@ -104,6 +104,9 @@ From the following code, create a time series chart using "ui.Chart.image.doySer
 
 ```
 
+# View code in engine
+[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/161144086fe6d17d9e20bd129e03e383?noload=true)
+
 ---
 
 ## 🗂️ Output Summary
@@ -113,8 +116,3 @@ From the following code, create a time series chart using "ui.Chart.image.doySer
 - ✅ Drought Severity Index (DSI) Map
 - ✅ All maps clipped to Indonesia's boundaries
 - ✅ VCI Time-Series Chart displayed in GEE Console
-
----
-
-# View code in engine
-[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/161144086fe6d17d9e20bd129e03e383?noload=true)

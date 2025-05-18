@@ -44,6 +44,7 @@ These prompts were used during the development of this exercise to guide the imp
 ### 💡 Prompt 1: Green Space Mapping & Statistics
 
 ```
+
 Generate a Google Earth Engine JavaScript API code to map green spaces over selected cities. Utilize the following steps:
 
 ✅ City Selection:
@@ -91,6 +92,7 @@ Print the city name, total area, green area, and percentage of green area.
 ### 💡 Prompt 2: Green Space Proximity to Buildings
 
 ```
+
 ✅ In the Code given below and check the distance of green spaces from buildings in the selected cities.
 
 To extract building use the Open Buildings V3 Polygons with ID: ee.FeatureCollection("GOOGLE/Research/open-buildings/v3/polygons")

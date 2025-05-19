@@ -9,7 +9,7 @@ This project demonstrates how to use **ChatGPT-generated prompts** and the **Goo
 ### ✅ Completed Exercises
 1. **Urban and Vegetation Dynamics in Vietnam**  
 2. **Air Quality Assessment over New Delhi**  
-3. **Mapping Drought Indices**  
+3. **Spatiotemporal Drought Monitoring in Indonesia**  
 4. **Flood Monitoring and Damage Assessment**
 5. **Urban Planning and Development**
 

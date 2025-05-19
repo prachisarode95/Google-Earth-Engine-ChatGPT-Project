@@ -102,7 +102,7 @@ Clip out the buildings in the selected cities and then display them on the map, 
 ```
 
 # View code in engine
-[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)]()
+[![View in Earth Engine](https://img.shields.io/badge/View%20in-Earth%20Engine-008000?logo=google)](https://code.earthengine.google.com/4a526451b87573f3f011f748bdbf6201?noload=true)
 
 ---
 

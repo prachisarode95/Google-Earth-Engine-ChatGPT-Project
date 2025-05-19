@@ -31,7 +31,9 @@ This project demonstrates how to use **ChatGPT-generated prompts** and the **Goo
 - **Sentinel-1 SAR GRD**: `COPERNICUS/S1_GRD`  
 - **GHS Population**: `JRC/GHSL/P2023A/GHS_POP`  
 - **Country boundaries**: `USDOS/LSIB_SIMPLE/2017`, `CGAZ_ADM1`
-- add for the 5th exercise
+- **Sentinel-2 Surface Reflectance data**: `COPERNICUS/S2_SR_HARMONIZED`
+- **Global Administrative Unit Layers**: `FAO/GAUL/2015/level2`
+- **Open Buildings V3 – global building footprint dataset**: `GOOGLE/Research/open-buildings/v3/polygons`
 
 ---
 

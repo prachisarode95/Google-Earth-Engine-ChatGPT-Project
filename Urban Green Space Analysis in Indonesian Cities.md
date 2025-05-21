@@ -20,8 +20,8 @@ These administrative boundaries are sourced from:
 
 ## 📅 Analysis Period
 
-- **Start Date:** January 1, 2022  
-- **End Date:** December 31, 2022
+- **Start Date:** January 1, 2024  
+- **End Date:** December 31, 2024
 
 ---
 

@@ -1,6 +1,6 @@
-# 🌍 Geospatial Data Analysis with ChatGPT and Google Earth Engine
+# ⚙️🌍 Geospatial Data Analysis with ChatGPT and Google Earth Engine
 
-This project demonstrates how to use **ChatGPT-generated prompts** and the **Google Earth Engine JavaScript API** to build a series of practical geospatial analyses. It follows exercises from the course *"Introduction to Geospatial Data Analysis with ChatGPT and Google Earth Engine"*, applying real-world use cases like vegetation monitoring, air quality assessment, drought mapping, and flood detection.
+This project demonstrates how to use **ChatGPT-generated prompts** and the **Google Earth Engine JavaScript API** to build a series of practical geospatial analyses. It follows exercises from the course *"Introduction to Geospatial Data Analysis with ChatGPT and Google Earth Engine"*, applying real-world use cases like vegetation monitoring, air quality assessment, drought mapping, flood detection, and urban planning.
 
 ---
 

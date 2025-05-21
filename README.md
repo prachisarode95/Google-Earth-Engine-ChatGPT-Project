@@ -11,7 +11,7 @@ This project demonstrates how to use **ChatGPT-generated prompts** and the **Goo
 2. **Air Quality Assessment over New Delhi**  
 3. **Spatiotemporal Drought Monitoring in Indonesia**  
 4. **Flood Monitoring and Damage Assessment**
-5. **Urban Planning and Development**
+5. **Urban Green Space Analysis in Indonesian Cities**
 
 ---
 
